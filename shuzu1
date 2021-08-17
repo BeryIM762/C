@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main()
+{
+	int i, a[10];
+	for (i = 0; i <= 9; i++)//输入10个整数,分别按顺序和逆序输出
+		scanf_s
+		("%d", &a[i]);
+	for (i = 9; i >= 0; i--)
+		printf("%3d", a[i]);
+	printf("\n");
+	for (i = 0; i <= 9; i++)
+		printf("%3d", a[i]);
+}
